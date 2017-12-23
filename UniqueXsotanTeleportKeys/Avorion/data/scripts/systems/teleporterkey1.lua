@@ -28,7 +28,7 @@ function getHyperspaceRechargeEnergy(seed, rarity)
 	randomx = math.random() * 10
 	roundx = round(randomx)
 	number = rarity.value * 3
-	number = number + roundx  -- 35 max 50
+	number = number + roundx  -- 25 max 40
 	number = number / 100
 
 	

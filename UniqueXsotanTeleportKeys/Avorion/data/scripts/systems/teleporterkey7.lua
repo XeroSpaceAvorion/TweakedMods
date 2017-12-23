@@ -16,7 +16,7 @@ function getEnergyGen(seed, rarity)
 	
 	randomx = getInt(0, 10)
 	number = rarity.value * 14
-	number = number + randomx -- 70 max 80
+	number = number + randomx -- 70 max 75
 	number = number / 100
 
     return number
@@ -28,7 +28,7 @@ function getBattRech(seed, rarity)
 	randomx = math.random() * 10 
 	roundx = round(randomx)
 	number = rarity.value * 8
-	number = number + roundx -- 40 max 50
+	number = number + roundx -- 40 max 45
 	number = number / 100
 
     return number

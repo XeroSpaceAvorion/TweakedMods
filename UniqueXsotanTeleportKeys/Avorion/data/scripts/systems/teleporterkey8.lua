@@ -28,7 +28,7 @@ function getVelocity(seed, rarity)
 	randomx = math.random() * 15
 	roundx = round(randomx)
 	number = rarity.value * 4
-	number = number + roundx  -- 15 max 30
+	number = number + roundx  -- 15 max 25
 	number = number / 100
 
     return number

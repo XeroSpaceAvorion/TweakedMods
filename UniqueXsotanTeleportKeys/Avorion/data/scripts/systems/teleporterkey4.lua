@@ -16,7 +16,7 @@ function getCargoHold(seed, rarity)
 	randomx = math.random() * 15
 	roundx = round(randomx)
 	number = rarity.value * 7
-	number = number + roundx  -- 35 max 50
+	number = number + roundx  -- 35 max 40
 	number = number / 100
 	
     return number

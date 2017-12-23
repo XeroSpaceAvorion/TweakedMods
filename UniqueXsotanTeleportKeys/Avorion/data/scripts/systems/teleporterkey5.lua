@@ -11,7 +11,7 @@ function getNumTurrets(seed, rarity)
 	
 	randomx = getInt(1, 3)
 	rarityx = rarity.value
-	number = rarityx + randomx -- 6 max 9
+	number = rarityx + randomx -- 6 max 8
 	
     return number
 end
@@ -22,7 +22,7 @@ function getShieldDurab(seed, rarity)
 	randomx = math.random() * 20
 	roundx = round(randomx)
 	number = rarity.value * 14
-	number = number + roundx  -- 60 max 80
+	number = number + roundx  -- 60 max 70
 	number = number / 100
 
     return number

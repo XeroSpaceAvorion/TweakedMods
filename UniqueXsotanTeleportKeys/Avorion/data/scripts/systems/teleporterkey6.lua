@@ -23,7 +23,7 @@ function getShieldRecharge(seed, rarity)
 	randomx = math.random() * 10 
 	roundx = round(randomx)
 	number = rarity.value * 8
-	number = number + roundx -- 40 max 50
+	number = number + roundx -- 40 max 45
 	number = number / 100
 
     return -number

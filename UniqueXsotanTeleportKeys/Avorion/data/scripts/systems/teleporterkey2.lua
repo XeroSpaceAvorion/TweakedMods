@@ -34,7 +34,7 @@ function getScannerReach(seed, rarity)
 	randomx = math.random() * 20
 	roundx = round(randomx)
 	number = rarity.value * 26
-	number = number + roundx  -- 130 max 150
+	number = number + roundx  -- 100 max 125
 	number = number / 100
 
 	
